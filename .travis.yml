@@ -8,6 +8,7 @@ script:
   - yarn build
   - yarn export
   - touch out/.nojekyll
+  - echo "zeroquinze.com" > out/CNAME
 deploy:
   provider: pages
   skip_cleanup: true
