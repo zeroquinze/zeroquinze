@@ -12,6 +12,8 @@ function App({ Component, pageProps }: AppProps) {
 
         <link rel="shortcut icon" href="/favicon.jpg" />
 
+        <meta name="theme-color" content="#000000" />
+
         <meta
           name="description"
           content="Interligando itapê e região através de código."
